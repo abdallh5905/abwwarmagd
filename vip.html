@@ -1,6 +1,42 @@
 <!DOCTYPE html>
 <html dir="rtl" lang="ar"><head><meta charset="utf-8"/>
 <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, viewport-fit=cover" name="viewport"/>
+  <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=AW-18552799981"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'AW-18552799981');
+</script>
+
+<!-- Event snippet for حجز موعد (3) conversion page -->
+<script>
+  gtag('event', 'conversion', {
+      'send_to': 'AW-18552799981/n0g8CO-TjbEdEO2F1Y5F',
+      'value': 1.0,
+      'currency': 'SAR'
+  });
+</script>
+<!-- Event snippet for حجز موعد (3) conversion page
+In your html page, add the snippet and call gtag_report_conversion when someone clicks on the chosen link or button. -->
+<script>
+function gtag_report_conversion(url) {
+  var callback = function () {
+    if (typeof(url) != 'undefined') {
+      window.location = url;
+    }
+  };
+  gtag('event', 'conversion', {
+      'send_to': 'AW-18552799981/n0g8CO-TjbEdEO2F1Y5F',
+      'value': 1.0,
+      'currency': 'SAR',
+      'event_callback': callback
+  });
+  return false;
+}
+</script>
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=AW-18530403928"></script>
 <script>
